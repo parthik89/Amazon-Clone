@@ -1,0 +1,50 @@
+.main {
+  width: 250px;
+
+  margin-bottom: 5px;
+  color: black;
+  margin-top: 5px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 9px;
+}
+
+.VB {
+  text-decoration: none;
+}
+.title {
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.container {
+  display: flex;
+  background-color: white;
+  padding-left: 2px;
+  padding-bottom: 20px;
+  border: 2px solid rgb(199, 195, 195);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.img {
+  width: 55px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.imgcontainer {
+  object-fit: contain;
+}
+
+.hide {
+  /* display: flex; */
+  /* background-color: white; */
+}
+
+.cancel {
+  cursor: pointer;
+}
